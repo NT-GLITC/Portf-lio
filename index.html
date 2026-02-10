@@ -117,10 +117,39 @@
             
             <details class="group mt-2">
                 <summary class="cursor-pointer font-bold text-[#F19CBB] list-none flex items-center gap-2">
-                    <span class="group-open:rotate-180 transition-transform">▼</span> Ver detalhes
+                    <span class="group-open:rotate-180 transition-transform">▼</span> Stacks
                 </summary>
                 <div class="mt-4 text-sm text-gray-300 p-4 bg-gray-800/50 rounded-lg">
-                    <p>Tecnologias: SQL, POWER BI.</p>
+                    <p>SQL | POWER BI</p>
+                </div>
+            </details>
+        </div>
+
+        <div class="gradient-border p-6 flex flex-col gap-4">
+            <div class="flex justify-between items-center">
+                <h4 class="text-xl font-bold text-[#FFB7C5]">Fogo 0: Predição de incêndios</h4>
+                    <a href="https://github.com/NT-GLITC/Fire-0" target="_blank" class="text-white hover:text-[#F19CBB] transition-colors">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+            </div>
+            <!-----Início Bloco de ZOOM----->
+                <img src="imagens/fogo0.png" 
+                class="rounded-lg w-full h-40 object-cover cursor-zoom-in transition-transform hover:scale-105" 
+                alt="Projeto" 
+                onclick="zoomImage(this)">
+
+                <div id="image-overlay" class="fixed inset-0 bg-black/90 z-[100] hidden flex items-center justify-center p-4 cursor-zoom-out" onclick="closeZoom()">
+                    <img id="zoomed-img" src="" class="max-w-full max-h-full rounded-lg shadow-2xl transition-all duration-300 scale-90">
+                </div>
+            <!----Fim do Bloco de ZOOM------>
+            <p class="text-gray-400 text-sm">Plataforma web simples para a análise de chances de incêndio a partir do consumo de dados de APIs climatológicas. Com envio de e-mails automáticos para inscritos e residentes de Franco da Rocha</p>
+            
+            <details class="group mt-2">
+                <summary class="cursor-pointer font-bold text-[#F19CBB] list-none flex items-center gap-2">
+                    <span class="group-open:rotate-180 transition-transform">▼</span> Stacks
+                </summary>
+                <div class="mt-4 text-sm text-gray-300 p-4 bg-gray-800/50 rounded-lg">
+                    <p>Python | flask | SQLite | HTML | CSS</p>
                 </div>
             </details>
         </div>
